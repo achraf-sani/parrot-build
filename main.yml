@@ -1,0 +1,8 @@
+---
+- name: Configuring Parrot
+  hosts: localhost
+  connection: local
+  roles:
+    - configure-tmux
+    - customize-terminal
+    - install-tools
